@@ -1,16 +1,16 @@
 //Trayendonos los elementos que utilizaremos
 
-var contenedor = document.getElementsByClassName("contendor")[0];
+var contenedor = document.getElementsByClassName("contenedor")[0];
 var rosa = document.getElementById("rosa");
 var azul = document.getElementById("azul");
 var verde = document.getElementById("verde");
 var amarillo = document.getElementById("amarillo");
 
-contendor.style.position = "relative";
-contendor.style.background = "Darkgray";
-contendor.style.width = "600px";
-contendor.style.padding = "50px";
+contenedor.style.position = "relative";
+contenedor.style.background = "Darkgray";
+contenedor.style.width = "600px";
+contenedor.style.padding = "50px";
 
-azul.style.position = "absolute"
+azul.style.position = "absolute";
 azul.style.top = "250px";
 azul.style.right = "0";
